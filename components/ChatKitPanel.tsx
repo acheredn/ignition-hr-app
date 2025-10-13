@@ -274,7 +274,6 @@ export function ChatKitPanel({
     composer: {
       placeholder: PLACEHOLDER_INPUT,
       attachments: {
-        // Enable attachments
         enabled: true,
       },
     },
@@ -344,7 +343,7 @@ export function ChatKitPanel({
   }
 
   return (
-    <div className="relative pb-8 flex h-[90vh] w-full rounded-2xl flex-col overflow-hidden bg-white shadow-sm transition-colors dark:bg-slate-900">
+    <div className="relative flex h-[85vh] w-full flex-col overflow-hidden rounded-2xl bg-white shadow-lg transition-colors dark:bg-slate-900 sm:h-[80vh] md:h-[82vh] lg:h-[85vh] xl:h-[88vh]">
       <ChatKit
         key={widgetInstanceKey}
         control={chatkit.control}

@@ -11,11 +11,21 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     prompt: "What can you do?",
     icon: "circle-question",
   },
+  {
+    label: "I am planning to take PTO from Dec 25 till Jan 5th. Please block off my calendar and notify my team.",
+    prompt: "I would like you to go on PTO from Dec 25 till Jan 5th. Please block off my calendar and notify my team",
+    icon: "globe",
+  },
+  {
+    label: "What is our sick leave policy?",
+    prompt: "What is our sick leave policy?",
+    icon: "book-clock",
+  },
 ];
 
 export const PLACEHOLDER_INPUT = "Ask anything...";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "Ignition HR Copilot ✨";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
