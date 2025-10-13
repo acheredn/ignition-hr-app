@@ -13,7 +13,7 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
   },
   {
     label: "I plan to take PTO from Dec 25 till Jan 5th. Please block off my calendar and notify my team.",
-    prompt: "Block off my calendar for Dec 25 till Jan 5th PTO and notify my team",
+    prompt: "I plan to take PTO from Dec 25 till Jan 5th. Please block off my calendar and notify my team.",
     icon: "globe",
   },
   {
