@@ -12,8 +12,8 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     icon: "circle-question",
   },
   {
-    label: "Mark me off from Dec 25th, 2025 till Jan 3rd, 2026",
-    prompt: "Mark me off from Dec 25th, 2025 till Jan 3rd, 2026",
+    label: "Mark John off from Dec 25th, 2025 till Jan 3rd, 2026",
+    prompt: "Mark John off from Dec 25th, 2025 till Jan 3rd, 2026",
     icon: "globe",
   },
   {
